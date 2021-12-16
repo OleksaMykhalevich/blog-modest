@@ -18,9 +18,7 @@ body {
     align-content: center;
     height:80px ;
 }
-.container {
-  
-}
+
 
 .menu{
     display: flex;
@@ -78,6 +76,81 @@ body {
     background-color:#1d2126 ;
     min-width: 25px;
 }
+.main{
+    width: 100%;
+    background-image: url(img/img\ \(2\).png);
+    height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcomeRow{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    justify-content: center;
+}
+.text1_1 p{
+    font-size:30px;
+    margin: 0px 0px 30px 0px;
+}
+.text1_2{
+    margin: 0px 0px 40px 0px;
+    max-width: 650px;
+    font-size: 12px ;
+    color: #acadb6;
+}
+.welcomeBut{
+    display: flex;
+    
+}
+.viewMoreBut {
+    margin: 0px 0px 0px 0px;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+.videotourBut {
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.viewMoreBut a{
+    color: #ffe5e5;
+    text-decoration: unset;
+    border: 2px solid #ffe5e5;
+    padding: 15px 20px 15px 20px;
+    border-radius: 6px;
+    font-size: 10px;
+    width: 125px;
+    height: 45px;
+}
+.videotourBut a{
+    color: #ffe5e5;
+    text-decoration: unset;
+    border: 2px solid #ffe5e5;
+    padding: 15px 20px 15px 20px;
+    border-radius: 6px;
+    font-size: 10px;
+    width: 125px;
+    height: 45px;
+}
+.viewMoreBut a:hover{
+    border:2px solid #39a493;
+    color: white;
+    background-color:#39a493 ;
+}
+.videotourBut a:hover{
+    border:2px solid #39a493;
+    color: white;
+    background-color:#39a493
+}
+
+
 
 
 /*tablet sm*/

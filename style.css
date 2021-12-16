@@ -76,7 +76,7 @@ body {
     background-color:#1d2126 ;
     min-width: 25px;
 }
-.main{
+.firstPartOfMain{
     width: 100%;
     background-image: url(img/img\ \(2\).png);
     height: 660px;
@@ -148,6 +148,88 @@ body {
     border:2px solid #39a493;
     color: white;
     background-color:#39a493
+}
+.secondPartOfMain{
+    height: 610px;
+}
+.f{
+    background-color:#e1e6ea ;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text2_1 p{
+    font-size: 30px;
+    margin: 80px 0px 20px 0px;
+}
+.text2_2{
+    max-width: 650px;
+    padding: 25px 0px 0px 0px;
+}
+.text2_2 p{
+    color: #8d8f92;
+padding: 30px 0px 30px 0px;
+}
+.text2_3{
+    max-width: 380px;
+    
+}
+.text2_3 p{
+   margin: 0px 0px 40px 0px;
+   font-size: 13px;
+}
+.text2_3 DIV:first-child{
+    margin: 25px 0px 20px 0px;
+
+}
+.numbers p{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px 60px 0px;
+    background-color: #23b7a4;
+    text-align: center;
+    line-height: 50px;
+}
+.numbers p:first-child{
+    margin: 25px 20px 60px 0px;
+}
+.title{
+        color: black;
+        font-size: 17px;
+        margin: 10px 0px 10px 0px;
+}
+.secondpart{
+    display: flex;
+}
+.mediaBut button{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-color: #c8cdd0;
+    border: unset;
+    margin: 50px 0px 50px 0px;
+}
+.facebookBut{
+    background-image: url(img/icon\ \(6\).png);
+}
+.twiterBut{
+    background-image: url(img/icon\ \(5\).png);
+}
+.googleBut{
+    background-image: url(img/icon\ \(4\).png);
+}
+
+.ballBut{
+    background-image: url(img/icon\ \(3\).png);
+}
+
+.beBut{
+    background-image: url(img/icon\ \(2\).png);
+}
+.secondPartOfMain{
+    max-height: 610px;
 }
 
 

@@ -267,3 +267,8 @@ padding: 30px 0px 30px 0px;
             align-content:space-between ;
         }
     }
+    @media (max-width:1213px) {
+        .menu{
+            justify-content: center;
+        }
+    }

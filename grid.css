@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.col-xs-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.col-xs-2 {
+    flex: 0 0 16.66666%;
+    max-width: 16.66666%;
+}
+
+.col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/*tablet sm*/
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col-sm-2 {
+        flex: 0 0 16.66666%;
+        max-width: 16.66666%;
+    }
+
+    .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-sm-8 {
+        flex: 0 0 66.66666%;
+        max-width: 66.66666%;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+}
+
+
+    /*laptop md*/
+    @media (min-width:992px) {
+        .container {
+            max-width: 960px;
+        }
+
+        .col-md-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .col-md-7 {
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%;
+        }
+    }
+
+    /*desktop lg*/
+    @media (min-width:1200px) {
+        .container {
+           max-width: 1140px;
+        }
+    }
+
+    @media (max-width:767px) {
+        .hidden-xs {
+            display: none;
+        }
+    }

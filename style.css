@@ -231,6 +231,105 @@ padding: 30px 0px 30px 0px;
 .secondPartOfMain{
     max-height: 610px;
 }
+.thirdPartOfMain{
+    height: 650px;
+}
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio li{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    border: 15px white solid;
+    
+
+position: relative;
+}
+.portfolio li img{
+    width: 100%;
+}
+.portfolioText{
+   width: 100%;
+   height: 75px;
+   background-color: #e1e6ea;
+   z-index: 1;
+   padding: 15px;
+   display: flex;
+   font-size: 15px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.portfolioBut{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(225, 230, 234,.3);
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+   padding-top: 110px;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.portfolioBut1{
+width: 50px;
+height: 50px;
+background-image: url(img/icon\ \(9\).png);
+background-color: #3a454d;
+outline: unset;
+    border: unset;
+    margin: 2px;
+}
+.portfolioBut1:hover{
+    background-color: #4e5a62;
+}
+.portfolioBut2{
+    width: 50px;
+height: 50px;
+background-image: url(img/icon\ \(8\).png);
+background-color: #3a454d;
+outline: unset;
+    border: unset;
+    margin: 2px;
+}
+.portfolioBut2:hover{
+    background-color: #4e5a62;
+}
+.portfolioBut3{
+    width: 50px;
+height: 50px;
+background-image: url(img/icon\ \(7\).png);
+background-color: #3a454d;
+outline: unset;
+    border: unset;
+    margin: 2px;
+}
+.portfolioBut3:hover{
+    background-color: #4e5a62;
+}
+.portfolio li:hover .portfolioBut{
+    opacity: 1;
+}
+.portfolio li:hover .portfolioText{
+    background-color: #4e5a62 ;
+    color: white;
+}
+
+
+
+
+
 
 
 
@@ -263,6 +362,9 @@ padding: 30px 0px 30px 0px;
             min-width: 25px;
             margin: 5px;
         }
+        .portfolio li {
+            max-width: 265px;
+        }
         .row{
             align-content:space-between ;
         }
@@ -270,5 +372,6 @@ padding: 30px 0px 30px 0px;
     @media (max-width:1213px) {
         .menu{
             justify-content: center;
+            overflow-x: scroll;
         }
     }

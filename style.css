@@ -22,7 +22,9 @@ body {
 
 .menu{
     display: flex;
-    flex-wrap: wrap;
+   
+   height: 60px;
+   align-items: center;
     
 }
 .menu li{
@@ -425,7 +427,8 @@ justify-content: center;
     }
     @media (max-width:1213px) {
         .menu{
-            justify-content: center;
-            overflow-x: scroll;
+            overflow: hidden;
+   overflow: scroll;
+   flex-wrap: nowrap;
         }
     }

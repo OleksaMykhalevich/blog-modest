@@ -79,7 +79,7 @@ body {
 .firstPartOfMain{
     width: 100%;
     background-image: url(img/img\ \(2\).png);
-    height: 660px;
+    min-height: 660px;
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
@@ -150,7 +150,7 @@ body {
     background-color:#39a493
 }
 .secondPartOfMain{
-    height: 610px;
+    min-height: 610px;
 }
 .f{
     background-color:#e1e6ea ;
@@ -228,11 +228,9 @@ padding: 30px 0px 30px 0px;
 .beBut{
     background-image: url(img/icon\ \(2\).png);
 }
-.secondPartOfMain{
-    max-height: 610px;
-}
+
 .thirdPartOfMain{
-    height: 650px;
+    min-height: 650px;
 }
 .portfolio{
     margin-top: 50px;
@@ -247,8 +245,6 @@ padding: 30px 0px 30px 0px;
     padding: 0px;
     flex-direction: column;
     border: 15px white solid;
-    
-
 position: relative;
 }
 .portfolio li img{
@@ -326,8 +322,65 @@ outline: unset;
     background-color: #4e5a62 ;
     color: white;
 }
+.fourthPartOfMain{
+    min-height: 900px;
+    width: 100%;
+    color: white;
+    background-color: #3a454d;
+    padding-top: 1px;
+    
+    
+}
+.examplesOfWorks ul{
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 50px;
+}
+.examplesOfWorks li{
+position: relative;
+padding: 0px;
+border: 15px solid #3a454d;
 
+}
+.plusImg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,.5);
+    padding-bottom: 50px;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
 
+.mainImg{
+    width: 100%;
+}
+.workText{
+    width: 100%;
+    height: 60px;
+    background-color: #292f36;
+    padding: 20px;
+    max-width: 340px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+.examplesOfWorks li:hover .workText{
+    display: block;
+
+}
+.examplesOfWorks li:hover .plusImg{
+    opacity: 1;
+}
 
 
 

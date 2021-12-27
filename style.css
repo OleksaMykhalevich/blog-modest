@@ -142,14 +142,14 @@ body {
     height: 45px;
 }
 .viewMoreBut a:hover{
-    border:2px solid #39a493;
+    border:2px solid #23b7a4;
     color: white;
-    background-color:#39a493 ;
+    background-color:#23b7a4 ;
 }
 .videotourBut a:hover{
-    border:2px solid #39a493;
+    border:2px solid #23b7a4;
     color: white;
-    background-color:#39a493
+    background-color:#23b7a4;
 }
 .secondPartOfMain{
     min-height: 610px;

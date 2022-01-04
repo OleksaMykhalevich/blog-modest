@@ -383,9 +383,41 @@ justify-content: center;
 .examplesOfWorks li:hover .plusImg{
     opacity: 1;
 }
-
-
-
+.fifthPartOfMain{
+    min-height: 850px;
+    width: 100%;
+    
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    
+}
+.services div{
+    padding: 15px;
+}
+.servicesPhoto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicesPhotoText{
+    text-align: center;
+}
+.servicesExplanation{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.servicesExplanation p{
+    line-height: 1.5;
+    color: #959699;
+    text-align: center;
+    max-width: 260px;
+}
 
 
 

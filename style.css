@@ -451,10 +451,10 @@ justify-content: center;
     font-size: 18px;
 }
 .seventhPartOfMain{
-    min-height : 860px;
+    min-height : 800px;
 }
 .mapLviv{
-    margin: 55px 0px 55px 0px;
+    margin: 70px 0px 55px 0px;
 }
 .subtitle{
     font-size: 20px ;
@@ -473,6 +473,19 @@ justify-content: center;
     height: 100px;
     background-color:#3a454d ;
 }
+.stayInTouch{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
 
 /*tablet sm*/
 @media (min-width:768px) {
